@@ -23,6 +23,41 @@ namespace Salon.Controllers
             return View();
         }
 
+        public IActionResult Clients()
+        {
+            return View();
+        }
+
+        public IActionResult Documents()
+        {
+            return View();
+        }
+
+        public IActionResult Notifications()
+        {
+            return View();
+        }
+
+        public IActionResult Reports()
+        {
+            return View();
+        }
+
+        public IActionResult Settings()
+        {
+            return View();
+        }
+
+        public IActionResult Templates()
+        {
+            return View();
+        }
+
+        public IActionResult Treatments()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
