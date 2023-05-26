@@ -1,0 +1,44 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #b19cd9;
+}
+
+.nav-item a,
+.navbar-brand {
+    color: #ffffff;
+}
+
+    .nav-item a:hover,
+    .navbar-brand:hover {
+        color: #ffffff;
+        background-color: #aa80ff; /* A lighter shade of purple for hover */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.2s ease; /* Smooth transition */
+    }
+
+.navbar-custom {
+    background-color: #D8BFD8; /* This is light purple */
+}
