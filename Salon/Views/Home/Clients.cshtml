@@ -6,3 +6,38 @@
     <h1>Here will be the list of clients</h1>
     <p class="lead">allow to add clients, search for exiting clients and check its data</p>
 </div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addClientModal">
+    Add New Client
+</button>
+
+<div class="modal fade" id="addClientModal" tabindex="-1" aria-labelledby="addClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addClientModalLabel">Add New Client</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Add your form controls for adding a new client here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <input type="text" class="form-control mb-3" placeholder="Search Clients">
+        <!-- Add any other search controls here if needed -->
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <!-- Add a table or other HTML elements to display the list of clients here -->
+    </div>
+</div>
+
